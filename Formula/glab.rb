@@ -18,7 +18,7 @@ class Glab < Formula
   depends_on "git"
 
   def install
-    bin.install "glab_v1.7.0_Linux_amd64/glab"
+    bin.install "glab_v1.7.0_Linux_amd64"
     bin.install "glab_v1.7.0_Linux_amd64/bin/glab"
   end
 
