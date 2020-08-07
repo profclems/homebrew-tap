@@ -18,7 +18,6 @@ class Glab < Formula
   depends_on "git"
 
   def install
-    bin.install "glab"
     bin.install "bin/glab"
   end
 
