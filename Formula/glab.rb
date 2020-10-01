@@ -2,16 +2,16 @@
 class Glab < Formula
   desc "An open source GitLab CLI tool"
   homepage "https://github.com/profclems/glab"
-  version "1.10.0"
+  version "1.11.0-pre1"
   bottle :unneeded
 
   if OS.mac?
-    url "http://github.com/profclems/glab/releases/download/v1.10.0/glab_1.10.0_macOS_amd64.tar.gz"
-    sha256 "9db0cda9fce5a8b389ddb6d4211a6ec1bf06c2d73ae66b6d81bfbc544007086c"
+    url "http://github.com/profclems/glab/releases/download/v1.11.0-pre1/glab_1.11.0-pre1_macOS_amd64.tar.gz"
+    sha256 "a79048a6103485def47241b3a556d979fa8e9da10c7150afff7cab792c92ec0c"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "http://github.com/profclems/glab/releases/download/v1.10.0/glab_1.10.0_Linux_amd64.tar.gz"
-      sha256 "5d31dc927cab14742c8f6a8c1c8fd282d1ad2b8d1d5a4be03385d8b0863c6bab"
+      url "http://github.com/profclems/glab/releases/download/v1.11.0-pre1/glab_1.11.0-pre1_Linux_amd64.tar.gz"
+      sha256 "b7ff12120ca58b256dae7c129e63081cfbe86728410635ce117ef8d7aa57de2d"
     end
   end
   
