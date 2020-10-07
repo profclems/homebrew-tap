@@ -7,11 +7,11 @@ class Glab < Formula
 
   if OS.mac?
     url "http://github.com/profclems/glab/releases/download/v1.11.0-pre2/glab_1.11.0-pre2_macOS_amd64.tar.gz"
-    sha256 "a9cf476414a1febd87e84c45168e6bd029b5cefe9e5a82dd29169465f52fcf63"
+    sha256 "aeb007b5baae019ac33db09f44832bff9ec1bc900d77f3e83c669af305f2804d"
   elsif OS.linux?
     if Hardware::CPU.intel?
       url "http://github.com/profclems/glab/releases/download/v1.11.0-pre2/glab_1.11.0-pre2_Linux_amd64.tar.gz"
-      sha256 "bf42154a032bc866548bbe4e9c4544bbaf1fe28a6316ab0d12a9011a782eeb95"
+      sha256 "9074382eceb5865b20a27499581f5781350aa7e420e3b6cd576904a5a87a718b"
     end
   end
   
