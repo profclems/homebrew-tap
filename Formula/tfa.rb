@@ -7,11 +7,11 @@ class Tfa < Formula
 
   if OS.mac?
     url "http://github.com/profclems/tfa/releases/download/v0.1.0/tfa_0.1.0_macOS_amd64.tar.gz"
-    sha256 "1298bbbcaf58aee00316899888ffae92cfe371ed4bdbb57f915000cb232cb39d"
+    sha256 "56fd3f2f774e0e5c0bc88e36411202525b8fc10fb00b7c7e57ddcba43a80650f"
   end
   if OS.linux? && Hardware::CPU.intel?
     url "http://github.com/profclems/tfa/releases/download/v0.1.0/tfa_0.1.0_Linux_amd64.tar.gz"
-    sha256 "6f962a2acd3e558fe10bd46cedace1178e0d80430bff1d28e794d23468a3ad71"
+    sha256 "b071681554a0ef53fcf46688f897c4a07944d3e787a2cf9a2d55d51d2ab929ee"
   end
 
   depends_on "git"
